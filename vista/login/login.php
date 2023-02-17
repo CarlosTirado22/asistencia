@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+Cursos-id_curso
+-Nombre
+-Horario<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -26,7 +28,8 @@
     <img class="wave" src="img/wave.png">
     <div class="container">
         <div class="img">
-            <img src="img/bg.svg">
+            <!-- <img src="img/bg.svg"> -->
+            <img src="img/teacher.png">
         </div>
         <div class="login-content">
             <form method="POST" action="">
