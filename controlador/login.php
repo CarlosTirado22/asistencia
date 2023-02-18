@@ -6,10 +6,11 @@ if(!empty($_POST["btningresar"])){
         $usuario= $_POST["usuario"];
         $password= $_POST["password"];
 
-        $sql= $conexion->query("select * from usuario where usuario='$usuario' and password='$password'");
+        $sql= $conexion->query("select * from usuarios where usuario='$usuario' and password='$password'");
         if($datos=$sql->fetch_object()){
             $_SESSION["nombre"]=$datos->nombre;
             $_SESSION["apellido"]=$datos->apellido;
+            $_SESSION["id_usuario"]=$datos->id_usuario;
             header("location:../inicio.php");
         }else{
             echo "<div class='alert alert-danger'>El usuario no existe.</div>";

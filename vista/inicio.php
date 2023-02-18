@@ -18,10 +18,10 @@
     <table class="table table-hover tabla" id="example">
   <thead>
     <tr>
-      <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
+      <th scope="col">Codigo</th>
+      <th scope="col">Nombre</th>
+      <th scope="col">Apellido</th>
+      <th scope="col">Registro</th>
     </tr>
   </thead>
   <tbody>
