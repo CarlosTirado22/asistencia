@@ -1,6 +1,4 @@
-Cursos-id_curso
--Nombre
--Horario<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
