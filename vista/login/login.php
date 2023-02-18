@@ -1,6 +1,4 @@
-Cursos-id_curso
--Nombre
--Horario<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -47,7 +45,7 @@ Cursos-id_curso
                     </div>
                     <div class="div">
                         <h5>Usuario</h5>
-                        <input id="usuario" type="text" class="input" name="usuario"  autocomplete="usuario" value="">
+                        <input id="usuario" type="text" class="input" name="usuario" value="">
                     </div>
                 </div>
                 <div class="input-div pass">
@@ -56,7 +54,7 @@ Cursos-id_curso
                     </div>
                     <div class="div">
                         <h5>Contraseña</h5>
-                        <input type="password" id="input" class="input" name="password" autocomplete="current-password">
+                        <input type="password" id="input" class="input" name="password">
                     </div>
                 </div>
                 <div class="view">

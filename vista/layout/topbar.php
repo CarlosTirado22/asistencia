@@ -92,6 +92,10 @@
                 margin-top: 70px;
             }
 
+            .tabla{
+                width: 99%;
+            }
+
             @media screen and (max-width:1056px) {
                 .page-content {
                     padding: 15px !important;
